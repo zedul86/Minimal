@@ -1,0 +1,571 @@
+@import url(fonts.css);
+@import url(media.css);
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    margin: 18px 0;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.nav__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404040;
+
+}
+
+.banner {
+    background: url(../img/bg.jpg) no-repeat center/cover;
+    height: 100vh;
+
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.banner__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-top: 55px;
+}
+
+.info {
+    background: #FEFEC9;
+    padding: 60px 0;
+}
+
+.info__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #47474F;
+}
+
+.info__btn {
+    padding: 16px 34px;
+    background: #FEFEC9;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #47474F;
+    transition: .5s;
+}
+
+.info__btn:focus {
+    background-color: black;
+    color: #FEFEC9;
+}
+
+.brands {
+    background: #e5e5e500;
+    padding: 77px 0;
+}
+
+.cards {
+    display: flex;
+}
+
+.brands__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.card {
+    margin-left: 20px;
+}
+
+.card__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+.card__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+}
+
+.projects {
+    background: #F5F5F5;
+    padding: 85px 0;
+}
+
+.projects__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 73px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.Card__text {
+    background: #FFFFFF;
+}
+
+.Card__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    padding-top: 20px;
+}
+
+.Card__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.team {
+    background: #e5e5e500;
+    margin-bottom: 100px;
+}
+
+.team__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+    margin-bottom: 73px;
+}
+
+.team__lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.list__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.list__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.socnet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.socnet__img {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.recall {
+    background: #F5F5F5;
+    padding-bottom: 100px;
+}
+
+.recall__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.recalls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recall__list:nth-child(1):before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 215px;
+    background: rgba(0, 0, 0, 0.04);
+    right: 0;
+    top: 0;
+}
+
+.recall__list:nth-child(1) {
+    padding-right: 52px;
+}
+
+.recall__list:nth-child(2) {
+    padding-left: 70px;
+}
+
+.recall__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.recall__h {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 24px;
+    max-width: 338px;
+    width: 100%;
+
+}
+
+.recall__p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.contacts {
+    background: url(../img/bg2.png) no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.contacts__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 73px;
+}
+
+.contact__img {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+.contact__h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact2::before {
+    content: '';
+    height: 2px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.09);
+    position: absolute;
+    top: 147px;
+
+}
+
+.contact__p {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.contact__p2 {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.contact__p2:nth-child(4) {
+    margin-bottom: 22px;
+}
+
+.contact__link {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link__img {
+    margin-right: 9px;
+}
+
+.contact__link {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.nn {
+    margin-bottom: 11px;
+}
+
+.footer {
+    background: #000000;
+}
+
+.footer__wrap {
+    padding: 70px 0;
+}
+
+.footer__chapters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner__chapter {
+    width: 560px;
+    height: 60px;
+}
+
+.banner__chapter:nth-child(even) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.banner__chapter:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.banner__chapter:last-child {
+    width: 560px;
+    height: 130px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 17px;
+}
+
+.chapter__h {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+}
+
+.banner__chapter {
+    display: flex;
+    align-items: center;
+}
+
+.banner__btn2 {
+    padding: 15px 60px;
+    margin-top: 20px;
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #8BCAC3;
+    transition: .5s;
+}
+
+.banner__btn2:focus {
+    color: #8BCAC3;
+    background: black;
+    border: 1px solid #7EC4BD;
+}
+
+.footer__logo {
+    margin-top: 37px;
+    margin-bottom: 14px;
+}
+
+.footer__p {
+    font-family: 'Vollkorn',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
